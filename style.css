@@ -1,0 +1,91 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.jumbotron {
+    margin: 60px 0;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+.jumbotron .btn-large {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+/* Mod download menu */
+.dropdown-menu {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sub-lead {
+    margin-top: -15px;
+}
+
+/* Centered subheadings */
+.subheadings .span6 {
+    text-align: center;
+}
+
+.subheadings .span6 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Forum Page list */
+.forum-list {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Hub jumbotron stuff */
+#hub-logo {
+    float: right;
+}
+#hub-jumbotron-text {
+    text-align: left;
+}
+
+/* Award/Badge box at member records */
+.award-box {
+    text-align: right;
+    padding-top: 10px;
+}
+
+/* Some additional badge colors and style */
+.badge {
+    cursor: default;
+}
+.badge-bronze {
+    background-color: #BD6F2D;
+}
+.badge-silver {
+    background-color: #B7BDBD;
+}
+.badge-diamond {
+    background-color: #E0FFFF;
+    color: #446;
+    border: 1px solid #AAA;
+}
+
+/* If this seems weird, it is */
+#content {
+    clear: both;
+    overflow: hidden;
+}
