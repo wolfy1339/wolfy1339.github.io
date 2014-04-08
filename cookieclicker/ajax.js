@@ -1,6 +1,1 @@
-function ajax(url,callback){
-	var ajaxRequest;
-	try{ajaxRequest = new XMLHttpRequest();} catch (e){try{ajaxRequest=new ActiveXObject('Msxml2.XMLHTTP');} catch (e) {try{ajaxRequest=new ActiveXObject('Microsoft.XMLHTTP');} catch (e){alert("Something broke!");return false;}}}
-	if (callback){ajaxRequest.onreadystatechange=function(){if(ajaxRequest.readyState==4){callback(ajaxRequest.responseText);}}}
-	ajaxRequest.open('GET',url+'&nocache='+(new Date().getTime()),true);ajaxRequest.send(null);
-}
+function ajax(e,t){var n;try{n=new XMLHttpRequest}catch(r){try{n=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{n=new ActiveXObject("Microsoft.XMLHTTP")}catch(r){alert("Something broke!");return false}}}if(t){n.onreadystatechange=function(){if(n.readyState==4){t(n.responseText)}}}n.open("GET",e+"&nocache="+(new Date).getTime(),true);n.send(null)}

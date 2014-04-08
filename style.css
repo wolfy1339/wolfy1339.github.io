@@ -61,31 +61,3 @@ body {
 #hub-jumbotron-text {
     text-align: left;
 }
-
-/* Award/Badge box at member records */
-.award-box {
-    text-align: right;
-    padding-top: 10px;
-}
-
-/* Some additional badge colors and style */
-.badge {
-    cursor: default;
-}
-.badge-bronze {
-    background-color: #BD6F2D;
-}
-.badge-silver {
-    background-color: #B7BDBD;
-}
-.badge-diamond {
-    background-color: #E0FFFF;
-    color: #446;
-    border: 1px solid #AAA;
-}
-
-/* If this seems weird, it is */
-#content {
-    clear: both;
-    overflow: hidden;
-}
