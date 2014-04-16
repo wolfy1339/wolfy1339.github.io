@@ -2,60 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-	<title>wolfy1339 &middot; Sandbox</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wolfy1339 &middot; Sandbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- favicons -->
+    <link rel="icon" href="img/wolf.svg" />
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon16.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon32.png" />
     <link rel="icon" type="image/png" sizes="48x48" href="img/favicon48.png" />
-	<!-- meta -->
+    <!-- meta -->
     <meta name="keywords" content="wolfy1339, bmn, powder toy, tpt" />
     <meta name="description" content="Welcome to wolfy1339's 'Sandbox Website'. Here there will be lot's of random things." />
-	<meta name="google-site-verification" content="4lR7BiwhfA_pRKzUqOfetn4TYMokB6DVHsnIe63-3Rg" />
-	<meta name="msvalidate.01" content="57B77663C1E3F51F4E0EB692FABFB7DA" />
-	<!-- CSS -->
-	<link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
-	<link rel="stylesheet" href="bootstrap/bootstrap-responsive.min.css" />
-	<link rel="stylesheet" href="style.min.css" />
+    <meta name="google-site-verification" content="4lR7BiwhfA_pRKzUqOfetn4TYMokB6DVHsnIe63-3Rg" />
+    <meta name="msvalidate.01" content="57B77663C1E3F51F4E0EB692FABFB7DA" />
+    <!-- Live Tile & Taskbar Pin-->
+    <!--<meta name="application-name" content="Wolfy1339" />
+    <meta name="msapplication-starturl" content="http://wolfy1339.tk" />
+    <meta name="msapplication-navbutton-color" content="#ebf5ff" />
+    <meta name="msapplication-window" content="width=1024;height=768" />
+    <meta name="msapplication-tooltip" content="Go to Wolfy1339" />
+    <meta name="msapplication-task" content="name=Infos;action-uri=http://brilliant-minds.tk/index.html" />-->
+    
+    <!-- flip-Ahead -->
+    <!--<link rel="next" href="infos.html" />-->
+
+    <!-- CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet prefetch" />
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet prefetch" />
+    <link href="style.css" rel="stylesheet prefetch" />
+
+    <!-- Compatibility layer for ie -->
+    <!--[if lt IE 9]>
+    <script src="html5shiv.js"></script>
+    <script src="respond.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <link href="bootstrap-ie7.min.css" rel="stylesheet"/>
+    <![endif]-->
+    <!-- Fix for IE mobile -->
+    <script type="text/javascript">
+      if(navigator.userAgent.match(/IEMobile\/10\.0/)){var msViewportStyle=document.createElement("style");msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));document.querySelector("head").appendChild(msViewportStyle)}
+    </script>
 </head>
 <body>
-        <div class="container-narrow">
-        <div class="masthead">
-            <ul class="nav nav-pills pull-right">
-                <li class="active"><a href="index.html">Hub</a></li>
-                <li><a href="cookieclicker/index.html">Cookie Clicker</a></li>
-				<li class="disabled" title="Not released yet"><a href="#">TPT Mod</a></li>
+    <div class="container-narrow">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.html">Hub</a></li>
+            <li><a href="cookieclicker/index.html">Cookie Clicker</a></li>
+	    <li class="disabled" title="Not released yet"><a href="#">TPT Mod</a></li>
             </ul>
             <h2>wolfy1339<br><small>Community Hub</small></h2>
         </div>
         <hr>
         <div class="jumbotron">
-          <img src="http://brilliant-minds.github.io/img/logo.png" id="hub-logo" alt="BMN Logo">
-          <h1>Brilliant Minds of the Navy</h1>
+          <img src="img/wolf.svg" id="hub-logo" alt="wolfy1339" height="126px" width="126px" />
+          <h1>Wolfy1339</h1>
           <div id="hub-jumbotron-text">
-            <p class="lead"></p>
-            <p class="sub-lead">We use an United States Navy rates and ranks system to determine leadership. All you really have to do to get higher in rank is to show maturity and to be active.</p>
-            <a class="btn btn-large btn-success" href="http://powdertoy.co.uk/Groups/Page/View.html?Group=832">Group Page</a>
+            <p class="lead">About me</p>
+            <p class="sub-lead">I'm <span title="[wolf,y '1339">wolfy1339</span>. I do very, very basic <a href="http://en.wikipedia.org/wiki/Lua_programming_language" title="It's not an acronym, 2nd and 3rd letters are lowercase.">Lua</a> & <a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>
+            <br/>My site is in HTML using the <a href="http://en.wikipedia.org/wiki/HTML5">HTML5</a> standards and it's mostly based on mniip's <a href="http://mniip.com">website</a>.<br /><a href="https://github.com/wolfy1339">My github</a>.</p>
+            <a class="btn btn-lg btn-success" href="http://powdertoy.co.uk/Groups/Page/View.html?Group=832">Group Page</a>
           </div>
         </div>
         <hr>
-        <div class="row-fluid subheadings">
-          <div class="span6">
+        <div class="row marketing subheadings">
+          <div class="col-md-6">
             <a href="https://github.com/wolfy1339">
-              <img src="img/github.png" alt="GitHub">
+              <img src="img/github.png" alt="GitHub" rel="prefetch" height="64" width="64">
               <h4>GitHub</h4>
             </a>
             <p>I participate in community projects like the BMN <a href="http://brilliant-minds.github.io/mod.html">The Powder Toy mod</a> and their <a href="http://brilliant-minds.github.io">website</a>.</p>
             <a href="irc://irc.freenode.net:6667/powder">
-              <img src="img/irc.png" alt="Freenode">
+              <img src="img/irc.png" alt="Freenode" rel="prefetch" height="64" width="64">
               <h4>IRC</h4>
             </a>
             <p>Meet other TPT members inside the #powder channel at irc.freenode.net. You can alternatively use the <a href="http://webchat.freenode.net/?channels=powder">Webchat</a> for a quick talk.</p>
           </div>
-          <div class="span6">
+          <div class="col-md-6">
             <!-- TODO: Fix the search query with a real tag search -->
             <a href="http://powdertoy.co.uk/Browse.html?Search_Query=wolfy1339">
-              <img src="img/powder.png" alt="TPT">
+              <img src="img/powder.png" alt="TPT" rel="prefetch" height="64" width="64">
               <h4>Creations</h4>
             </a>
             <p>Search for all TPT saves tagged with "wolfy1339".<br>&nbsp;</p>
@@ -76,7 +103,7 @@
     </div>
 	
 	<!-- JavaScript -->
-    <script src="bootstrap/jquery.min.js"></script>
-    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
