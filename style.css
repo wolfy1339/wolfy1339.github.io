@@ -2,7 +2,9 @@
     padding-top: 20px;
     padding-bottom: 40px;
 }
-
+.nav-pills li {
+	padding-right: 0.2em;
+}
 .jumbotron {
     margin: 3.750em 0;
     text-align: center;
@@ -47,38 +49,9 @@
 }
 
 /* Forum Page list */
-.forum-list {
+.text-list {
     text-align: left;
     padding-left: 20px;
-}
-
-/* Award/Badge box at member records */
-.award-box {
-    text-align: right;
-    padding-top: 10px;
-}
-
-/* Some additional badge colors and style */
-.badge {
-	cursor: default;
-	-moz-border-radius:0.25em;
-	-webkit-border-radius:0.25em;
-	border-radius:0.25em;}
-.badge-bronze {
-	background-color: #BD6F2D;
-}
-.badge-silver {
-	background-color: #B7BDBD;
-}
-.badge-diamond{background-color: #E0FFFF;
-    color: #446;
-    border: 1px solid #AAA;
-}
-.badge-inverse {
-	background-color: #333;
-}
-.badge-warning {
-	background-color: #f89406;
 }
 
 /* If this seems weird, it is */
