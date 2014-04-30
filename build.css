@@ -1,0 +1,37 @@
+body {
+		padding-top: 0px;
+}
+@media (min-width: 1200px) {
+		.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+				width: 1170px;
+		}
+}
+.container {
+        padding-left: 0px;
+        padding-right: 0px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-weight: bold;
+        text-rendering: optimizelegibility;
+}
+.page-header {
+        margin: 20px 0 30px;
+}
+.alert-warning, .alert-warning h4 {
+		color: #c09853;
+}
+.alert {
+		padding: 8px 35px 8px 14px;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+}
+h1, .h1 {
+		font-size: 38.5px;
+}
+h1, h2, h3, h4, h5, h6 {
+		margin: 10px 0;
+}
+#build-os {
+		float: right;
+}
