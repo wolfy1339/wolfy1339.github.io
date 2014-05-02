@@ -20,6 +20,7 @@ body {
 .jumbotron {
     margin: 3.750em 0;
     text-align: center;
+    background-color: #FFF;
 }
 .jumbotron h1 {
     font-size: 50px;
@@ -47,7 +48,7 @@ body {
     margin-top: -15px;
 }
 /* Centered subheadings */
-.subheadings .col-md-66 {
+.subheadings .col-md-6 {
     text-align: center;
 }
 .subheadings .col-md-6 p {
