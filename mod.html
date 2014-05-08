@@ -32,7 +32,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container-narrow">
+  <div class="container">
     <div class="masthead">
       <ul class="nav nav-pills pull-right">
         <li><a href="index.html">Hub</a></li>
@@ -49,12 +49,23 @@
       <p class="lead">Merge ALL the mods!</p>
       <p class="sub-lead">Here should go some more informations about the current release, but I'm too lazy to invent this text so I'm just writing some senseless stuff here.
       </p>
-<div class="btn-group" id="multicol-menu">
-<div class="dropdown-toggle btn-lg btn-success">
-<a href="#">download</a>
-<li class="dropdown-menu">
-</div>
-<ul id="multicol-menu" class="btn btn-lg btn-success">
+      <div class="btn-group">
+        <a class="btn btn-large btn-success dropdown-toggle" data-toggle="dropdown" href="#">
+          Download
+          <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu">
+          <div class="col-md-2 btn-group btn-group-vertical">
+            <a class="btn btn-success" href="#">Windows 32-bit</a>
+            <a class="btn" href="#">Windows 64-bit</a>
+          </div>
+          <div class="col-md-2 btn-group btn-group-vertical">
+            <a class="btn" href="#">Linux 32-bit</a>
+            <a class="btn" href="#">Linux 64-bit</a>
+          </div>
+        </ul>
+<ul id="multicol-menu" class="nav pull-right">
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">MultiCol Menu <b class="caret"></b></a>
         <ul class="dropdown-menu">
@@ -63,17 +74,24 @@
                     <ul class="list-unstyled col-md-4">
                         <li><a href="#">test1-1</a></li>
                         <li><a href="#">test1-2</a></li>
+                        <li><a href="#">test1-3</a></li>
                     </ul>
                     <ul class="list-unstyled col-md-4">
                         <li><a href="#">test2-1</a></li>
                         <li><a href="#">test2-2</a></li>
+                        <li><a href="#">test2-3</a></li>
                     </ul>
-                </div>
+                    <ul class="list-unstyled col-md-4">
+                        <li><a href="#">test3-1</a></li>
+                        <li><a href="#">test3-2</a></li>
+                        <li><a href="#">test3-3</a></li>
+                    </ul>
                 </div>
             </li>
         </ul>
     </li>
 </ul>
+      </div>
       <br><small class="muted">in-dev branch:&nbsp;</small>
         <a href="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy"><img src="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy.svg?branch=develop" alt="TravisCI"></a>
     </div>
