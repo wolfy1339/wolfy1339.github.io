@@ -43,6 +43,12 @@ body {
 .dropdown-menu {
     padding-left: 5px;
     padding-right: 5px;
+    min-width: 260px;
+}
+.btn-group-vertical {
+    float: left;
+    width: 46%;
+    margin-right: 10px;
 }
 .sub-lead {
     margin-top: -15px;
