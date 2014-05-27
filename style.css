@@ -20,7 +20,13 @@ body {
 .jumbotron {
     margin: 3.750em 0;
     text-align: center;
-    background-color: #FFF;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+@media screen and (min-width: 768px) {
+    .container .jumbotron {
+        padding: 0;
+    }
 }
 .jumbotron h1 {
     font-size: 50px;
@@ -30,17 +36,24 @@ body {
     font-size: 21px;
     padding: 14px 24px;
 }
+.jumbotron .sub-lead {font-size:14px;}
+.jumbotron .lead {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 30px;
+}
+.sub-lead {margin-top: -15px;}
 /* Custom container */
+hr {
+	margin: 30px 0;
+}
 .container {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 730px;
 }
-.container > hr {
-    margin: 30px 0;
-}
-
 /* Mod download menu */
-.dropdown-menu {
+.jumbotron .dropdown-menu {
     padding-left: 5px;
     padding-right: 5px;
     min-width: 260px;
@@ -50,31 +63,24 @@ body {
     width: 46%;
     margin-right: 10px;
 }
-.sub-lead {
-    margin-top: -15px;
-}
+
 /* Centered subheadings */
 .subheadings .col-md-6 {
-    text-align: center;
+	text-align: center;
 }
+
 .subheadings .col-md-6 p {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /* Forum Page list */
 .forum-list {
     text-align: left;
     padding-left: 20px;
 }
+
 /* Hub jumbotron stuff */
-.jumbotron .sub-lead {font-size:14px;}
-.jumbotron .lead {
-   margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 200;
-    line-height: 30px;
-}
-.sub-lead {margin-top: -15px;}
 #hub-logo {
     float: right;
 }
@@ -86,68 +92,120 @@ body {
 #hub-jumbotron-text {
     text-align: left;
 }
+.social-buttons {
+    text-align: left;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.social-facebook, .social-github, .social-twitter {
+    display: inline-block;
+    height: 20px;
+    width: 18%;
+}
+
 /* Award/Badge box at member records */
 .award-box {
     text-align: right;
     padding-top: 10px;
 }
+
 /* Some additional badge colors and style */
 .badge {
-    cursor: default;
+	cursor: default;
 }
 .label {
     cursor: default;
 }
 .badge-bronze {
-    background-color: #BD6F2D;
+	background-color: #BD6F2D;
 }
 .badge-silver {
-    background-color: #B7BDBD;
+	background-color: #B7BDBD;
 }
-.badge-diamond {
-    background-color: #E0FFFF;
+.badge-diamond{background-color: #E0FFFF;
     color: #446;
     border: 1px solid #AAA;
 }
-
+.badge-inverse {
+	background-color: #333;
+}
+.badge-warning {
+	background-color: #f89406;
+}
+.label {
+	font-weight: bold;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	line-height: 14px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
 /* If this seems weird, it is */
 #content {
     clear: both;
     overflow: hidden;
 }
+ul {
+	margin: 0 0 10px 25px;
+	padding: 0;
+}
+li {
+	line-height: 20px;
+	font-size: 14px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+	margin-bottom: 30px; 
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+	border-bottom: 0;
+  }
+}
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 h1, h2, h3 {line-height: 40px;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    font-family: inherit;
-    text-rendering: optimizelegibility;
-    margin-top: 10px;
-    margin-right: 0em;
-    margin-bottom: 10px;
-    margin-left: 0em;
+	font-weight: bold;
+	font-family: inherit;
+	text-rendering: optimizelegibility;
+	margin-top: 10px;
+	margin-right: 0em;
+	margin-bottom: 10px;
+	margin-left: 0em;
 }
 h2 {
-    display: block;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0em;
-    -webkit-margin-end: 0em;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0em;
+	-webkit-margin-end: 0em;
 }
-@-webkit-viewport {
-    width: device-width;
+@-webkit-viewport   {
+	width: device-width; 
 }
 @-moz-viewport {
-    width: device-width;
+	width: device-width;
 }
 @-ms-viewport {
-    width: device-width;
+	width: device-width;
 }
 @-o-viewport {
-    width: device-width;
+	width: device-width;
 }
-@viewport {
-    width: device-width;
+@viewport {	
+	width: device-width; 
 }
-@-ms-viewport {
-    width: device-width;
+@-ms-viewport  { 
+	width: device-width; 
 }
