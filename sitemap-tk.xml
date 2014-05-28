@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://wolfy1339.tk/</loc>
+  <mobile:mobile/>
+  <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/wolf.svg
+	</image:loc>
+	<image:title>logo</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/irc.png
+	</image:loc>
+	<image:title>irc</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/github.png
+	</image:loc>
+	<image:title>github</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/powder.png
+	</image:loc>
+	<image:title>powder</image:title>
+  </image:image>
+  <lastmod>2014-04-03T16:08:24+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.tk/index.html</loc>
+  <mobile:mobile/>
+  <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/wolf.svg
+	</image:loc>
+	<image:title>logo</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/irc.png
+	</image:loc>
+	<image:title>irc</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/github.png
+	</image:loc>
+	<image:title>github</image:title>
+  </image:image>
+   <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/powder.png
+	</image:loc>
+	<image:title>powder</image:title>
+  </image:image>
+  <lastmod>2014-04-03T16:08:24+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.tk/cookieclicker/index.html</loc>
+  <lastmod>2014-04-03T16:08:24+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<!--<url>
+  <loc>http://wolfy1339.tk/mod.html</loc>
+  <mobile:mobile/>
+    <image:image>
+    <image:loc>
+	  http://wolfy1339.tk/img/github.png
+	</image:loc>
+	<image:title>github</image:title>
+  </image:image>
+      <image:image>
+    <image:loc>
+	   https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy.svg?branch=develop
+	</image:loc>
+	<image:title>travis</image:title>
+  </image:image>
+  <lastmod>2014-04-03T16:08:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>-->
+<url>
+  <loc>http://wolfy1339.tk/build.html</loc>
+  <lastmod>2014-05-27T19:26:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.tk/irc.html</loc>
+  <mobile:mobile/>
+  <lastmod>2014-05-27T19:26:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.tk/Limnoria/</loc>
+  <mobile:mobile/>
+  <lastmod>2014-05-26T20:47:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
