@@ -7,7 +7,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
   <mobile:mobile/>
   <image:image>
     <image:loc>
-	  http://brilliant-minds.github.io/img/logo.png
+	  http://wolfy1339.github.io/img/wolf.svg
 	</image:loc>
 	<image:title>logo</image:title>
   </image:image>
@@ -37,7 +37,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
   <mobile:mobile/>
   <image:image>
     <image:loc>
-	  http://brilliant-minds.github.io/img/logo.png
+	  http://wolfy1339.github.io/img/wolf.svg
 	</image:loc>
 	<image:title>logo</image:title>
   </image:image>
@@ -63,7 +63,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://brilliant-minds.github.io/cookieclicker/index.html</loc>
+  <loc>http://wolfy1339.github.io/cookieclicker/index.html</loc>
   <lastmod>2014-04-03T16:08:24+00:00</lastmod>
   <changefreq>always</changefreq>
 </url>
@@ -85,4 +85,21 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
   <lastmod>2014-04-03T16:08:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>-->
+<url>
+  <loc>http://wolfy1339.github.io/build.html</loc>
+  <lastmod>2014-05-27T19:26:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.github.io/irc.html</loc>
+  <mobile:mobile/>
+  <lastmod>2014-05-27T19:26:24+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wolfy1339.github.io/Limnoria/</loc>
+  <mobile:mobile/>
+  <lastmod>2014-05-26T20:47:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
 </urlset>
