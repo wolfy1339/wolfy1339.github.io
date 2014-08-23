@@ -2,6 +2,28 @@ body {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+/* General Styles for index.html */
+#index-row {
+    margin-top: 20px;
+}
+.index {
+    background-color: #eee;
+}
+a h3 {
+    text-indent: 15%
+}
+.logo {
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
+    max-height: 256px;
+    background: linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+}
 a.text-muted:hover, a.text-muted:focus {
 	text-decoration:none;
 	color:#777;
