@@ -2,6 +2,10 @@ body {
     padding-top: 20px;
     padding-bottom: 40px;
 }
+a.text-muted:hover, a.text-muted:focus {
+	text-decoration:none;
+	color:#777;
+}
 .nav-pills li {
     padding-right: 0.2em;
 }
