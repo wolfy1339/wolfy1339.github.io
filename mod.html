@@ -1,109 +1,46 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Wolfy1339 &middot; TPT Mod</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- favicons -->
-    <link rel="icon" href="img/wolf.svg" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon32.png" />
-    <link rel="icon" type="image/png" sizes="48x48" href="img/favicon48.png" />
-    <!-- meta -->
-    <meta name="keywords" content="wolfy1339, bmn, powder toy, tpt" />
-    <meta name="description" content="Welcome to wolfy1339's 'Sandbox Website'. Here there will be lot's of random things." />
-    <meta name="google-site-verification" content="4lR7BiwhfA_pRKzUqOfetn4TYMokB6DVHsnIe63-3Rg" />
-    <meta name="google-site-verification" content="ED3ELN5Ld4TA27rVYMx6_hoXMDZqA3oa23fGr-Egj5g" />
-    <meta name="msvalidate.01" content="57B77663C1E3F51F4E0EB692FABFB7DA" />
-    <meta name="msvalidate.01" content="57B77663C1E3F51F4E0EB692FABFB7DA" />
-    <!-- Live Tile & Taskbar Pin-->
-    <!--<meta name="application-name" content="Wolfy1339" />
-    <meta name="msapplication-starturl" content="http://wolfy1339.tk" />
-    <meta name="msapplication-navbutton-color" content="#ebf5ff" />
-    <meta name="msapplication-window" content="width=1024;height=768" />
-    <meta name="msapplication-tooltip" content="Go to Wolfy1339" />
-    <meta name="msapplication-task" content="name=Infos;action-uri=http://brilliant-minds.tk/index.html" />-->
-    <!-- flip-Ahead -->
-    <!--<link rel="next" href="infos.html" />-->
-    <!-- CSS -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet prefetch" />
-    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet prefetch" />
-    <link href="style.css" rel="stylesheet prefetch" />
-
-    <!-- Compatibility layer for ie -->
-    <!--[if lt IE 9]>
-    <script src="html5shiv.js"></script>
-    <script src="respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Fix for IE mobile -->
-    <script type="text/javascript">if (navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = document.createElement("style"); msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}")); document.querySelector("head").appendChild(msViewportStyle) }</script>
-</head>
-<body>
-  <div class="container">
-    <div class="masthead">
-      <ul class="nav nav-pills pull-right">
-        <li><a href="Home.html">Hub</a></li>
-        <li><a href="cookieclicker/index.html">Cookie Clicker</a></li>
-        <li><a href="build.html">BuildServ</a></li>
-        <li><a href="irc.html">IRC</a></li>
-        <li class="active"><a href="mod.html">TPT Mod</a></li>
-      </ul>
-      <h2>BMN<br><small>The Powder Toy Mod</small></h2>
-    </div>
-    <hr>
-    <div class="jumbotron">
-      <h1>V.0.1</h1>
-      <p class="lead">Merge ALL the mods!</p>
-      <p class="sub-lead">Here should go some more informations about the current release, but I'm too lazy to invent this text so I'm just writing some senseless stuff here.
-      </p>
-      <div class="btn-group">
-        <a class="btn btn-lg btn-success dropdown-toggle" data-toggle="dropdown" href="#">
-          Download
-          <span class="caret"></span>
-        </a>
-
-        <ul class="dropdown-menu">
-          <div class="btn-group btn-group-vertical">
-            <a class="btn btn-success" href="#">Windows 32-bit</a>
-            <a class="btn btn-default" href="#">Windows 64-bit</a>
-          </div>
-          <div class="btn-group btn-group-vertical">
-            <a class="btn btn-default" href="#">Linux 32-bit</a>
-            <a class="btn btn-default" href="#">Linux 64-bit</a>
-          </div>
-        </ul>
+---
+layout: default
+title: TPT Mod
+---
+<div class="jumbotron">
+  <h1>V.0.1</h1>
+  <p class="lead">Merge ALL the mods!</p>
+  <p class="sub-lead">Here should go some more informations about the current release, but I'm too lazy to invent this text so I'm just writing some senseless stuff here.
+  </p>
+  <div class="btn-group">
+    <a class="btn btn-lg btn-success dropdown-toggle" data-toggle="dropdown" href="#">
+    Download
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <div class="btn-group btn-group-vertical">
+        <a class="btn btn-success" href="#">Windows 32-bit</a>
+        <a class="btn btn-default" href="#">Windows 64-bit</a>
       </div>
-      <br><small class="text-muted">in-dev branch:&nbsp;</small>
-        <a href="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy"><img src="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy.svg?branch=develop" alt="TravisCI"></a>
-    </div>
-    <hr>
-    <div class="row subheadings">
-      <div class="col-md-6">
-        <a href="https://github.com/Brilliant-Minds/BMN-Powder-Toy"><img src="img/github.png" alt="GitHub">
-        <h4>GitHub</h4></a>
-        <p>You can find the source code of this mod on GitHub and participate with feedback and code.</p>
-
-        <h4>Developers</h4>
-        <p>wolfy1339, nucular</p>
+      <div class="btn-group btn-group-vertical">
+        <a class="btn btn-default" href="#">Linux 32-bit</a>
+        <a class="btn btn-default" href="#">Linux 64-bit</a>
       </div>
-
-      <div class="col-md-6">
-        <h4>TravisCI</h4>
-        <p>This mod uses TravisCI to make sure that everything is compilable.</p>
-
-        <h4>Subheading 5</h4>
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="footer">
-      <a class="text-text-muted" href="https://github.com/Brilliant-Minds/Brilliant-Minds.github.io">repo</a>
-    </div>
+    </ul>
   </div>
-  <!-- JavaScript -->
-  <script src="bootstrap/js/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
+  <br><small class="text-muted">in-dev branch:&nbsp;</small>
+  <a href="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy"><img src="https://travis-ci.org/wolfy1339/Wolfy-Powder-Toy.svg?branch=master" alt="TravisCI"></a>
+</div>
+<hr>
+<div class="row subheadings">
+  <div class="col-md-6">
+    <a href="https://github.com/wolfy1339/Wolfy-Powder-Toy">
+      <img src="img/github.png" alt="GitHub">
+      <h4>GitHub</h4>
+    </a>
+    <p>You can find the source code of this mod on GitHub and participate with feedback and code.</p>
+    <h4>Developers</h4>
+    <p>wolfy1339</p>
+  </div>
+  <div class="col-md-6">
+    <h4>TravisCI</h4>
+    <p>This mod uses TravisCI to make sure that everything is compilable.</p>
+    <h4>Subheading 5</h4>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+  </div>
+</div>
