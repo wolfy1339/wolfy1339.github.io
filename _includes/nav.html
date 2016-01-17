@@ -1,8 +1,20 @@
 <div class="masthead">
   <ul class="nav nav-pills pull-right">
-    <li{% if page.title == "Hub" %} class="active"{% endif %}><a href="Home.html">Hub</a></li>
-    <li{% if page.title == "IRC" %} class="active"{% endif %}><a href="irc.html">IRC</a></li>
-    <li {% if page.title == "Hub" %}class="active"{% else %}class="disabled"{% endif %} title="Not released yet"><a href="#">TPT Mod</a></li>
+    {% if page.title == "Hub" %}
+    <li class="active"><a href="Home.html">Hub</a></li>
+    {% else %}
+    <li><a href="Home.html">Hub</a></li>
+    {% endif %}
+    {% if page.title == "IRC" %}
+    <li class="active"><a href="irc.html">IRC</a></li>
+    {% else %}
+    <li><a href="irc.html">IRC</a></li>
+    {% endif %}
+    {% if page.title == "TPT Mod" %}
+    <li class="active"><a href="mod.html">TPT Mod</a></li>
+    {% else %}
+    <li class="disabled" title="Not released yet"><a href="mod.html">TPT Mod</a></li>
+    {% endif %}
   </ul>
   {% if page.nav %}
   <h2>Wolfy1339<br><small>{{ page.nav }}</small></h2>
