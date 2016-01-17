@@ -14,12 +14,14 @@ a h3 {
 }
 .logo {
     display: inline-block;
-    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
     max-height: 256px;
-    background: linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .15)));
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background: linear-gradient(to top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
     background: -o-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
     background: -ms-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
