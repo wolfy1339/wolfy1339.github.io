@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+{% if page.title == "Home" %}
+  <body class="index">
+{% else %}
+  <body>
+{% endif %}
+    <main class="container" role="main">
+      {% include nav.html %}
+
+      <hr />
+
+      {{ content }}
+
+      <hr />
+
+     {% include footer.html %}
+    </main>
+  </body>
+</html>

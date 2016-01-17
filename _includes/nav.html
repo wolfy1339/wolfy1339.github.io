@@ -1,0 +1,24 @@
+<div class="masthead">
+  <ul class="nav nav-pills pull-right">
+    {% if page.title == "Sandbox" %}
+    <li class="active"><a href="Home.html">Hub</a></li>
+    {% else %}
+    <li><a href="Home.html">Hub</a></li>
+    {% endif %}
+    {% if page.title == "IRC" %}
+    <li class="active"><a href="irc.html">IRC</a></li>
+    {% else %}
+    <li><a href="irc.html">IRC</a></li>
+    {% endif %}
+    {% if page.title == "TPT Mod" %}
+    <li class="active"><a href="mod.html">TPT Mod</a></li>
+    {% else %}
+    <li class="disabled" title="Not released yet"><a href="mod.html">TPT Mod</a></li>
+    {% endif %}
+  </ul>
+  {% if page.nav %}
+  <h2>Wolfy1339<br><small>{{ page.nav }}</small></h2>
+  {% else %}
+  <h2>Wolfy1339<br><small>{{ page.tile }}</small></h2>
+  {% endif %}
+</div>
