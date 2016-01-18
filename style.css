@@ -103,9 +103,6 @@ a.text-muted:focus {
         float: none;
     }
 }
-#hub-jumbotron-text {
-    text-align: left;
-}
 
 /* Social buttons on the hub */
 .social-buttons {
@@ -153,7 +150,7 @@ h1, h2, h3, .h1, .h2, .h3 {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
-    font-weight: bold;
+    font-weight: 400;
     font-family: inherit;
     text-rendering: optimizelegibility;
     margin: 10px 0;
