@@ -11,8 +11,6 @@ body {
 }
 .index .h3 {
     text-align: center;
-    font-weight: bold;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,13 +19,13 @@ body {
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
             box-shadow: 0 0 10px rgba(0, 0, 0, .45), inset 0 2px 0 rgba(255, 255, 255, .4);
     max-height: 256px;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .15)));
-    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: -o-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: linear-gradient(to top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .15)));
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, .15)0, rgba(0, 0, 0, .15)100%);
 }
 a.text-muted:hover,
 a.text-muted:focus {
@@ -37,10 +35,11 @@ a.text-muted:focus {
 .nav-pills li {
     padding-right: 0.2em;
 }
+
+/* General jumbotron styling */
 .jumbotron {
-    margin: 3.750em 0;
+    margin: 3.750em 0 1.755em;
     text-align: center;
-    background-color: #FFFFFF;
 }
 .jumbotron h1 {
     font-size: 50px;
@@ -49,9 +48,6 @@ a.text-muted:focus {
 .jumbotron .btn-lg {
     font-size: 21px;
     padding: 14px 24px;
-}
-.jumbotron .sub-lead {
-    font-size: 14px;
 }
 .jumbotron .lead {
     margin-bottom: 20px;
@@ -108,6 +104,8 @@ a.text-muted:focus {
 #hub-jumbotron-text {
     text-align: left;
 }
+
+/* Social buttons on the hub */
 .social-buttons {
     text-align: left;
     height: 20px;
@@ -120,44 +118,6 @@ a.text-muted:focus {
     display: inline-block;
     height: 20px;
     width: 18%;
-}
-
-/* Award/Badge box at member records */
-.award-box {
-    text-align: right;
-    padding-top: 10px;
-}
-
-/* Some additional badge colors and style */
-.badge {
-    cursor: default;
-}
-.label {
-    cursor: default;
-}
-.badge-bronze {
-    background-color: #BD6F2D;
-}
-.badge-silver {
-    background-color: #B7BDBD;
-}
-.badge-diamond {
-    background-color: #E0FFFF;
-    color: #446;
-    border: 1px solid #AAA;
-}
-.badge-inverse {
-    background-color: #333;
-}
-.badge-warning {
-    background-color: #f89406;
-}
-.label {
-    font-weight: bold;
-    padding: 2px 4px;
-    font-size: 11.844px;
-    line-height: 14px;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* If this seems weird, it is */
@@ -181,53 +141,22 @@ li {
         padding-right: 0;
         padding-left: 0;
     }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
 }
 .footer {
     padding-right: 15px;
     padding-left: 15px;
 }
-h1, h2, h3 {
+h1, h2, h3, .h1, .h2, .h3 {
     line-height: 40px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    display: block;
     font-weight: bold;
     font-family: inherit;
     text-rendering: optimizelegibility;
-    margin: 10px 0em;
+    margin: 10px 0;
 }
-h2 {
-    display: block;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0em;
-    -webkit-margin-end: 0em;
-}
-@-webkit-viewport {
-    width: device-width;
-}
-@-moz-viewport {
-    width: device-width;
-}
-@-ms-viewport {
-    width: device-width;
-}
-@-o-viewport {
-    width: device-width;
-}
-@viewport {
-    width: device-width;
-}
-@-ms-viewport {
-    width: device-width;
-}
+
 iframe {
     border: 0 none !important;
 }
