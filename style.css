@@ -41,6 +41,9 @@ a.text-muted:focus {
     margin: 3.750em 0 1.755em;
     text-align: center;
 }
+.jumbotron p {
+    font-size: inherit;
+}
 .jumbotron h1 {
     font-size: 50px;
     line-height: 1;
@@ -50,9 +53,8 @@ a.text-muted:focus {
     padding: 14px 24px;
 }
 .jumbotron .lead {
+    display: block;
     margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 200;
     line-height: 30px;
 }
 .sub-lead {
