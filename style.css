@@ -71,11 +71,6 @@ a.text-muted:focus {
     padding-right: 5px;
     min-width: 260px;
 }
-.btn-group-vertical {
-    float: left;
-    width: 46%;
-    margin-right: 10px;
-}
 
 /* Centered subheadings */
 .subheadings .col-md-6 {
