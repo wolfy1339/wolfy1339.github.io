@@ -4,93 +4,20 @@ https://keybase.io/wolfy1339
 
 I hereby claim:
 
-  * I am an admin of http://wolfy1339.tk
-  * I am wolfy1339 (https://keybase.io/wolfy1339) on keybase.
-  * I have a public key with fingerprint 848A 575D 0C0D 97EB 41DA  1FF9 D9AC 1B18 57B7 E82A
-
-To do so, I am signing this object:
-
-{
-    "body": {
-        "key": {
-            "eldest_kid": "010130d3faa805d97363ce6af2b6b6c44e7709655e087a9d9feb6de567affa8e50370a",
-            "fingerprint": "848a575d0c0d97eb41da1ff9d9ac1b1857b7e82a",
-            "host": "keybase.io",
-            "key_id": "d9ac1b1857b7e82a",
-            "kid": "010130d3faa805d97363ce6af2b6b6c44e7709655e087a9d9feb6de567affa8e50370a",
-            "uid": "04cc22d2e695b5cba719408847c43719",
-            "username": "wolfy1339"
-        },
-        "service": {
-            "hostname": "wolfy1339.tk",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
-    },
-    "ctime": 1453768567,
-    "expire_in": 157680000,
-    "prev": "58bfab73ca68ff3c0d0a68516bda4ac328785cc1e2a6b2f13b5f40b18caff7a6",
-    "seqno": 3,
-    "tag": "signature"
-}
-
-which yields the signature:
-
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-
-owGtUmtMHFUU3gegULEogk0LIUwUbQt0Zue5S20g1iqkkEgoUCCsd2buLJNdZ7a7
-wyKlyKOmFKUBWrtR2ZSksS0pIE03QpCWQttg0oLPFrv1GR61ijy0LQbR4l3UP8af
-3j/33HO/77vnfPe0RBp1Bn2ga8O6gr7bm/RXf+B1+Scv1FZhvCpWYpYqzA5XN+gQ
-oVuz2mURs2A4gRMkLpISABxOi2aWZEgBMkAy8QzPCBQFWRY3MzQNcY4FZtEsQZ4R
-Ic2wQJIAB2mcZHGAJWOSrNigy+mSFQ3JchQHaJYWcQFHmpCnCBEQkoT4QCB4gqNZ
-noWcKUgsU91BBiqOB26YKqsohw7W1fL+A/8/113+lxwlCCaTaIKMmeZpgQcsYaZw
-jqNYgSJRHAS6oUsBL0OErlAdUiVBkmasOhlDaY8swKCzwVb+DUnV7IjsdKmaKqgO
-dFOmaU5LkKhVOleRkLf+rWHlZUVEPiKCB7rcsqpgFgIhBU0OihIUTbIMh3pIxuAr
-TtkFrXIQQaMkjlbwGehBkjTHS4BnC0kBMJwkkegTcBTRBMOLgAICaeJYjhYEApoA
-w5skguRpicKRzwJyhwUMFmxrj6JiFhLVCWxI0y3bFKCVuyBWHdFoiAvR6Q26sFBD
-cMJ0EeFR/4zdjta1KzYtbXRL/9mhW6xvOD0pNvZi4ncxxnjDQKl0d/7eZb83q/S6
-2fnGE2f21Jwf7TD5nNk17l3DV3fcGJMDcf7nrr2W1XBvytt1JIZMabZ/VVVrbPLl
-zg6FLdU1vm9zpLtfNBCB4g/DYytmUnKvW6NjPZeg/Z0tA2rM3uqSGvipzxE6HbO7
-97MvF59/nRr5WmyKmsxkCk9PZlyZ693ZvjxMl/Bi7gebD1OHXrr9y6U19fvGHms/
-bCusq/B4F+7n+LvCIjLzH5+qMNZG5+Sem9+8bU3VrcFrWSCQmTTR5o2/Uf6z4uu7
-Ux/ZsjiRHbF3xRl5imlTErdJ/VeaJtneVvzZHl3HI7aFue3qeM7IPPamktkx3t37
-6FvHtj7V9dBHX9wFGy7/uOk982+6hrXt0wfOC8eY70dOawU5R6J2658ZPflTS9qJ
-DM/4iegQ4/hEfmK87+3f5fXljKtotrOzKsO/lPBHwGM5vr97jN9aVJm31E/0JHxz
-p7NEnYjMs7TsS16p8Q/2pHsLxDO7Pjk+4vHsbCguK97/Ob0x5OHmxaMvnJtbd7Ne
-uxB3sHCjPenQq43f1s4ML7dOaIFfEwbpJx0ppU8fLT7V98BIWR397uyB8Pbp5rPr
-Hyyq6O2ezhus97Bx+sCyUgQW7jtSi8MG/PXp5Rfbts+kZRvtQwlLsR9PHdQvhOaF
-3Ez9Ew==
-=MT06
------END PGP MESSAGE-----
-
-And finally, I am proving ownership of this host by posting or
-appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/wolfy1339
-
-==================================================================
-==================================================================
-https://keybase.io/wolfy1339
---------------------------------------------------------------------
-
-I hereby claim:
-
   * I am an admin of https://wolfy1339.com
   * I am wolfy1339 (https://keybase.io/wolfy1339) on keybase.
-  * I have a public key with fingerprint 848A 575D 0C0D 97EB 41DA  1FF9 D9AC 1B18 57B7 E82A
+  * I have a public key with fingerprint F31D 3406 C314 0BEC 859A  8BD7 FAE9 C953 24A3 FE57
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "eldest_kid": "010130d3faa805d97363ce6af2b6b6c44e7709655e087a9d9feb6de567affa8e50370a",
-            "fingerprint": "848a575d0c0d97eb41da1ff9d9ac1b1857b7e82a",
+            "eldest_kid": "0101663a7824fc40ed1972d5409e5fb13bc2ccb8074eb489ec04debb5cf39a37e5390a",
+            "fingerprint": "f31d3406c3140bec859a8bd7fae9c95324a3fe57",
             "host": "keybase.io",
-            "key_id": "d9ac1b1857b7e82a",
-            "kid": "010130d3faa805d97363ce6af2b6b6c44e7709655e087a9d9feb6de567affa8e50370a",
+            "key_id": "fae9c95324a3fe57",
+            "kid": "0101663a7824fc40ed1972d5409e5fb13bc2ccb8074eb489ec04debb5cf39a37e5390a",
             "uid": "04cc22d2e695b5cba719408847c43719",
             "username": "wolfy1339"
         },
@@ -101,42 +28,42 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1455644615,
+    "ctime": 1485390610,
     "expire_in": 157680000,
-    "prev": "451505b504e359dce4a380280621b15b5f0acf83f9339121864a780730d40981",
-    "seqno": 13,
+    "prev": "18bdb2688eb306f78c9e08de9caf5d926ab44fda78fdaf2b3c76e72e5993e6e2",
+    "seqno": 20,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.51
+Version: Keybase OpenPGP v2.0.62
 Comment: https://keybase.io/crypto
 
-yMM+AnicrVJ9TFVlHL5AMLnjIkEsGgF2lkbC6Jx7vm8xRwxpV4wPHTZALufjPXD4
-OPd2P7giQmgJJiCRo9FtiJkjShgKOQqEhKuFILJIBFdjgZomiyFNdETQe6j+af3Z
-+8/7vr/f8zzv83v2XtJ5abQeN9tCQ/Z039vqMTLgcmjS3aZvSxHeLJYghlKkAKxv
-oFAENrupQBYRA4JiKIajIi5xHIOSIkvjFC4AipP0PMVTAkEAmkZZiiQBytAcK7IS
-4CkRkBTNSRLHABLFaZRDohFJVnKB1WKVFTuUZQiGI2lSRAUUagKewEQOkyTI5wSM
-xxiS5mnA6FVintmmMqA5nrOBGNkMa/BiWrf3H/j/2bfjLzlCEPR6UQ8oluRJgedo
-jCVQhiFogcDhWQXagFXhigBEO82FUgmG4yxSFo3AcrEsADVZdZR/Q2IEcxFkW6xm
-u1kwF8JWnt1usRlUqr3Eso4FvOlvFRMvKyJMEjKKgdUmmxXEgEGkYJdVWYwgSYog
-KIyMRsA+i2wFJllFkDTFoHCp74BiKEmQGInCSVAC4CQrCoDgcAbVMyilh3HChoRy
-gsTgEgstYnqMoQiOZlAaRkqgLIMh6lxvKmaojUOfXC7UtMm5Cmd3WAFSNjiQ9YTG
-Q6vx8fZUv5hG6xvwz8eLOLZxRTuaSzZNtN6myuWHj6qzW49mHcGqj2eXbp6bWtFO
-NPmFfp5am9TwW+gNpeKFPnF2/Ezgzqm3W8HNlic/+FQ5kPjuo8FdkRVOrn34fddo
-zqlbfRPbMua+dwddGWIDE4L9J/d/xNU2xsaOxQ/PJHcbl9Kuvjf2ozt/GFvuqUwg
-y6+fWvxhxlU28mEIdgKtwIdqpnIudh6oCZjr4WY6KpbdgVpf/XRimP/RO833Kxq7
-V/VJt6vyT65W13kZJzqxa5/VsltWD18466PLbO0/E5r+U9eOFs3Xc1EDVU3GjI09
-7sD4lLGXXkXzzvu7NnTMNhTQePiLeV9WLuFvOGOMqR5bAzb92n3wuZPTM32LqYrh
-wqWmUc87m55fCD/bOzM/ndY8NRaU3LVve82upS1Fy7E+C9oHIfOrnZktv7z283Tv
-N0Nf1dTTYV7zeEzyqrW3KTOh33mkr6v8WN7Le9MOT3ZdnNWeO3+6LaI/Y7lh/PrI
-5t113mFVByc/0e3tPB036Nj2evo1XZKr/mPPFJ/7+Zmh7oZn32nbrfMe+2OP/4O4
-jvac4PbGG0XTi3j2Wo4tXhn2b/5iw2ifJ2pZbHSMhzylc8pr37mczdv38z1+lY8f
-XwHHdz5zKNJ37V7E04bYq+ce5te77oLLwUaxzrJD7/dKlGPh7uVbsfMn4sLf0qRk
-ha9YEyMPLflGBf3+JzPexiY=
-=fOSy
+yMM7AnicrVJ7UFRVHN4VAl1YHjo0NMkQF6TJiLnvB0ZpikOk1LSuQAE793EuXB57
+173LK7AaRiRYzE2BGRGDQIamgdAYRSYEaUSGtZzM14ymMzFO5AD5IIXckM6l+qfp
+z84f5/E73/ed7/fNOWv2M5iMj+9MWOI6n2QYz4+2lBgy6zavrkQEVapAkiqRQrC8
+gCIJaC5boSIhSQiKoRhNEzzD4qQskiiQMI7BJYpEOUDJAkYIIi6KAosyJBBIlgMi
+SkpAEChRJjieYABFcCiPJCCyYs8DTodTsbugrExgEkGitEhgJCoAkaU4nhUkRuYB
+J3IUgZM8IQOKgcR8VdMZ0JzAayBRUWENHmzL9v4D/z/7LvlLjhRFHJdwQHMUxAg8
+g3EkyrIkI5IE3OtADTjtfDGA6DK1SK7ACIJDdicgsFyqiEBPVm/l35BEUS2GbIdT
+damiWgSv8l0uh5akU10VjmUsEGx/q9gExS7BJCGjFDg1RbUjSRhEii5Fl8VIVvdN
+Y2gCAsodihPYFB1BMTSLwqG/A0qhJAbDFnCaZYFAoLTMsCIHUFaCYfIyJXE4zQsk
+KUswPjjJuECIDA0YHFAcRwAa4Ije1y67iiThUNTF50FNTcmz864SJ0B2fzOa7W8w
+mgwBT63Qv5jBtCrsn4/XFhe6VFE+MTefop0KSxv+mLse88rUEVCy6DEu+KYvmB9f
+ik5s2tOPRtTHf6pNjkWe25h1afwZ3xzdO3u8/XCIN2JdwaP9bwV7lU4yveX3LbGI
+d96evTba/b2tkT9qD6tL7g4NuOw1u787nBAwlkl3bT9ZV/TB1Pt3g1ZHX42rWnez
+y4V2nrX+Efub96T0sxbOtsq5MfsPXPx88rPQ+6OnN92sGp8Nbvf7KadBXN9MRnoG
++R4x19r93JXK1GpL37hG+bL9+47ed+wY9s9fs/WEeWQCmblwfFAuvHHjyA+3QkoD
+NmUghrBmcKj3aq3vy/M2y4mD8cEbru8NajK6adOZmr0bCguih297Yhs+fHVhC3qn
+fEyo+BbtbFtI3hYU+4bUHBhZu9hRc4bxhj8bHl927b2xIaVmaOUn1dPtgfFTbz70
+z40KW5qxWd7NXaq+Vf9RaysRumfVzM6AlT/WpCcP99b39XYZX7Y2tZmynp5d6zlY
+k7Fx8JcHyKn5kYznT08uVaFpjihLqzt+l+prBV8HFdX2ZHa/HliX2+DbvJjaaJ1L
+w9JHHoW4b7eseKH6YY657bWIspQnO2fWRzuH7x0b7zl08UF/dkpOyIDyTtWLv3a4
+a/etOVY+kL0Qc8+vhzIN1M6B6d6hqgFzFnrtwNse65UQKqqjuB//wnP33OxluoCd
+S23kd7z01b4/AV9TwNo=
+=Q6qR
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -145,3 +72,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/wolfy1339
 
 ==================================================================
+
